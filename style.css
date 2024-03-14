@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    background-color: brown;
+    color: wheat; 
+    height: 28px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main{
+    flex: auto;
+    padding: 20px 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: brown;
+    background-color: burlywood;
+    border-radius: 3px;
+    padding: 5px 15px;
+
+}
+
+nav a:hover, .up:hover{
+    background-color: wheat;
+    color: brown;
+}
+
+.up{
+    text-align: center;
+    text-decoration: none;
+    color: burlywood;
+    border: 2px solid burlywood;
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+}
+
+.part1{
+    background-color: burlywood;
+    padding: 10px;
+    list-style: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: brown;
+}
+
+.part1:hover a{
+    filter: brightness(4);
+}
+
+.part1 a:hover{
+    filter: brightness(1);
+}
+
+.homework_list{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.homework_list a{
+    display: flex;
+    
+}
